@@ -1,8 +1,10 @@
+/* this is main Body */
 body{
   background-image: url('./images/pizza-cheese.webp');
   background-size: cover;
  
 }
+/* background image  */
 .bg-img{
   filter: blur(50%);
   -webkit-filter: blur(70%);
@@ -10,6 +12,7 @@ body{
   width: 100%;
 
 }
+/* this is main header */
 h1{
   text-align: center;
   font-size: xx-large;
@@ -18,6 +21,7 @@ h1{
   color: #fff;
   margin-top: 3%;
 }
+/* this is logo image on first page  */
 img{
   margin-left: 35%;
   margin-top: 2%;
@@ -27,12 +31,13 @@ img{
   border-radius: 5px;
  
 }
-
+/* this is one line sentence */
 .content{
   text-align: center;
   margin: 2% 0;
   color:rgb(12, 12, 11);
 }
+/* this is start button on first page */
 .btn button{
     margin: 0  35vw ;
     padding:  0 4.0rem ;
@@ -43,13 +48,17 @@ img{
     border: none;
     
 }
+/* style on button hover */
 .btn button:hover{
   background-color: #fff;
   font-weight: bolder;
   cursor: pointer;
   color: #000;
   border: none;
+
 }
+
+/* this class name is for all buttons accept start button */
 .bttn{
   display: flex;
   flex-direction: vertical;
@@ -90,6 +99,7 @@ select:hover{
     color: black;
     background-color: rgb(196, 194, 194);
 }
+
 h2{
   margin-top: 7%;
   text-align: center;
