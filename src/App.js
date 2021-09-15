@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
+import Home from './components/Home';
+import Sections from './components/Sections';
+import OrderDetails from './components/OrderDetails';
+import CancelOrder from '././components/CancelOrder';
+import OrderList from './components/OrderList';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import{
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  
+  
+  } from 'react-router-dom';
+  
+
 import './App.css';
 
+
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path={'/home'} component={Home}/>
+        <Route exact path={'/sections'} component={Sections}/>
+        <Route exact path={'/orderDetails'} component={OrderDetails}/>
+        <Route exact path={'/cancelOrder'} component={CancelOrder}/>
+        <Route exact path={'/orderList'} component={OrderList}/>
+
+      </Switch>
+    </Router>
+  
   );
 }
 
