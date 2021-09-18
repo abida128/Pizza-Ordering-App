@@ -5,7 +5,7 @@
  - This repo is for Pizza-Ordering-App project.
 
 #  Technologies:
-    (for coding and implementation on UI)
+  (for coding and implementation on UI)
  - HTML,
  - CSS, 
  - JavaScript, 
@@ -22,13 +22,13 @@
 # How to run this app?
 - To run this app, npm start
 - open (Localhost:3000) in your browser.
-- Visit to github repo link and github live link below 
+- Visit the GitHub repo link and GitHub live link below 
 
 # Repo Link:
 
-    https://github.com/abida128/Pizza-Ordering-App.git
+   https://github.com/abida128/Pizza-Ordering-App.git
 
 # Live Link:
+   https://abida128.github.io/Pizza-Ordering-App/
     
-
 

@@ -41,7 +41,7 @@ function OrderDetails() {
             "Crust": crust,
             "Size": size,
             "Timestamp": new Date(),
-            "Table_No": 9,
+            "Table_No": 3,
           }
       
       let token ="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzE1Njg4MTksIm5iZiI6MTYzMTU2ODgxOSwianRpIjoiN2NjZmY4YTctYjc0Ni00MjBlLWI1OWQtMDUyMWM1NjU3OTNjIiwiZXhwIjoxNjMxNTY5NzE5LCJpZGVudGl0eSI6InRlc3QiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.oGkQPEzQbK2yH1NXSk0ixS7O_HNXClvPgCiK-0op1e8";
